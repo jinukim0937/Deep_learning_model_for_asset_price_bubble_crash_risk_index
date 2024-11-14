@@ -23,7 +23,7 @@ for j = 2517:20:3562
         formatOut = 'yyyy-mm-dd';
         end_time_str = string(datestr(end_time,formatOut));
         outputpath = ticker+'_'+end_time_str+'.xlsx';
-        LPPLAI(data,outputpath);
+        LPPL(data,outputpath);
     end
 end
 
